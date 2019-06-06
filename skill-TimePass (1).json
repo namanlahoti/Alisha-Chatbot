@@ -1,0 +1,3878 @@
+{
+  "name": "TimePass",
+  "intents": [
+    {
+      "intent": "compliment_hate",
+      "examples": [
+        {
+          "text": "loathing"
+        },
+        {
+          "text": "hate you",
+          "mentions": [
+            {
+              "entity": "hate",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "intolerable"
+        },
+        {
+          "text": "youre a loath"
+        },
+        {
+          "text": "you're awkward",
+          "mentions": [
+            {
+              "entity": "hate",
+              "location": [
+                7,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "your'e disgusting",
+          "mentions": [
+            {
+              "entity": "hate",
+              "location": [
+                7,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "abhor"
+        },
+        {
+          "text": "abominate"
+        },
+        {
+          "text": "detest"
+        },
+        {
+          "text": "dislike you"
+        },
+        {
+          "text": "dont like u"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "how helpful are you to me"
+        },
+        {
+          "text": "how can u direct me"
+        },
+        {
+          "text": "how can you help me"
+        },
+        {
+          "text": "what help can i expect from you"
+        },
+        {
+          "text": "how can you serve me"
+        },
+        {
+          "text": "what can you do for me"
+        },
+        {
+          "text": "what can i expect from you"
+        },
+        {
+          "text": "what's the need of you"
+        },
+        {
+          "text": "what's the purpose of yours"
+        },
+        {
+          "text": "why are you here"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "response",
+      "examples": [
+        {
+          "text": "okay"
+        },
+        {
+          "text": "okayyyyyy"
+        },
+        {
+          "text": "okayy"
+        },
+        {
+          "text": "okayyyy"
+        },
+        {
+          "text": "k"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cusswords",
+      "examples": [
+        {
+          "text": "you're a dickhead"
+        },
+        {
+          "text": "you're a douchebag"
+        },
+        {
+          "text": "you are a whore"
+        },
+        {
+          "text": "you are jackass"
+        },
+        {
+          "text": "you are dumbass"
+        },
+        {
+          "text": "you are a bitch"
+        },
+        {
+          "text": "you are a slut"
+        },
+        {
+          "text": "yo motherfucker"
+        },
+        {
+          "text": "you're an asshole"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "genrepunjabi",
+      "examples": [
+        {
+          "text": "now a punjabi song"
+        },
+        {
+          "text": "play a punjabi song"
+        },
+        {
+          "text": "punjabi audio"
+        },
+        {
+          "text": "play a bhangra song"
+        },
+        {
+          "text": "play me some jazz punjabi song"
+        },
+        {
+          "text": "another punjabi song"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "love",
+      "examples": [
+        {
+          "text": "you're mine",
+          "mentions": [
+            {
+              "entity": "lovefeeling",
+              "location": [
+                7,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "143",
+          "mentions": [
+            {
+              "entity": "lovefeeling",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i'm fond of you",
+          "mentions": [
+            {
+              "entity": "lovefeeling",
+              "location": [
+                4,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i'm totally into you"
+        },
+        {
+          "text": "love ya"
+        },
+        {
+          "text": "love u so much"
+        },
+        {
+          "text": "i adore you",
+          "mentions": [
+            {
+              "entity": "lovefeeling",
+              "location": [
+                2,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i am addicted to you",
+          "mentions": [
+            {
+              "entity": "lovefeeling",
+              "location": [
+                5,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i heart you",
+          "mentions": [
+            {
+              "entity": "lovefeeling",
+              "location": [
+                2,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I love you",
+          "mentions": [
+            {
+              "entity": "lovefeeling",
+              "location": [
+                2,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i like you",
+          "mentions": [
+            {
+              "entity": "lovefeeling",
+              "location": [
+                2,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "lobe you",
+          "mentions": [
+            {
+              "entity": "lovefeeling",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "expressions",
+      "examples": [
+        {
+          "text": "OMG"
+        },
+        {
+          "text": "geez"
+        },
+        {
+          "text": "yikes"
+        },
+        {
+          "text": "wowieee"
+        },
+        {
+          "text": "my goodness"
+        },
+        {
+          "text": "holy shit"
+        },
+        {
+          "text": "holy mother of god"
+        },
+        {
+          "text": "wow"
+        },
+        {
+          "text": "whoa"
+        },
+        {
+          "text": "oh my gosh"
+        },
+        {
+          "text": "oh my god"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "avoidlisteningmusic",
+      "examples": [
+        {
+          "text": "no need of music"
+        },
+        {
+          "text": "no music please"
+        },
+        {
+          "text": "dont want to listen songs"
+        },
+        {
+          "text": "no tunes please"
+        },
+        {
+          "text": "no tones please"
+        },
+        {
+          "text": "no songs please"
+        },
+        {
+          "text": "dont want to listen to songs"
+        },
+        {
+          "text": "dont wanna hear songs"
+        },
+        {
+          "text": "please no music"
+        },
+        {
+          "text": "no music"
+        },
+        {
+          "text": "Don't want to hear music"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "whatareyoudoing",
+      "examples": [
+        {
+          "text": "what r u doin"
+        },
+        {
+          "text": "what were u doing"
+        },
+        {
+          "text": "what wr u doin"
+        },
+        {
+          "text": "what the hell are you doing"
+        },
+        {
+          "text": "what are you up to"
+        },
+        {
+          "text": "what you doing"
+        },
+        {
+          "text": "whatcha doing"
+        },
+        {
+          "text": "what are you doing"
+        },
+        {
+          "text": "ssup"
+        },
+        {
+          "text": "what's up"
+        },
+        {
+          "text": "wassup"
+        },
+        {
+          "text": "wt r u dng"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "playingaudio",
+      "examples": [
+        {
+          "text": "play any song"
+        },
+        {
+          "text": "play an audio for me"
+        },
+        {
+          "text": "play some song for me"
+        },
+        {
+          "text": "play any tune for me"
+        },
+        {
+          "text": "play me an audio"
+        },
+        {
+          "text": "play songs for me"
+        },
+        {
+          "text": "suggest a song for me"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "alisha",
+      "examples": [
+        {
+          "text": "alishaaaaa"
+        },
+        {
+          "text": "alish"
+        },
+        {
+          "text": "alishaa"
+        },
+        {
+          "text": "alisha"
+        },
+        {
+          "text": "alisa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "genreHollywood",
+      "examples": [
+        {
+          "text": "play an english song"
+        },
+        {
+          "text": "now an english song"
+        },
+        {
+          "text": "play some english song"
+        },
+        {
+          "text": "play a hollywood song"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "questionnaire_how",
+      "examples": [
+        {
+          "text": "how's it going",
+          "mentions": [
+            {
+              "entity": "askinhowareyou",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how have you been",
+          "mentions": [
+            {
+              "entity": "askinhowareyou",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how do you do",
+          "mentions": [
+            {
+              "entity": "askinhowareyou",
+              "location": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how've you been",
+          "mentions": [
+            {
+              "entity": "askinhowareyou",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how is it going",
+          "mentions": [
+            {
+              "entity": "askinhowareyou",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "howdy do",
+          "mentions": [
+            {
+              "entity": "askinhowareyou",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how are things going",
+          "mentions": [
+            {
+              "entity": "askinhowareyou",
+              "location": [
+                0,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "how are you?",
+          "mentions": [
+            {
+              "entity": "askinhowareyou",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "agequeries",
+      "examples": [
+        {
+          "text": "how old are you"
+        },
+        {
+          "text": "what's your age"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "happyemotion",
+      "examples": [
+        {
+          "text": "I'm happy"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "questionaire_what",
+      "examples": [
+        {
+          "text": "what r u"
+        },
+        {
+          "text": "who r u"
+        },
+        {
+          "text": "what's your name",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                12,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what are you"
+        },
+        {
+          "text": "what's your identity"
+        },
+        {
+          "text": "who are ya"
+        },
+        {
+          "text": "what's ur identity",
+          "mentions": [
+            {
+              "entity": "name",
+              "location": [
+                10,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "who are you"
+        },
+        {
+          "text": "what are ya"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "wishes",
+      "examples": [
+        {
+          "text": "good evening",
+          "mentions": [
+            {
+              "entity": "wishes",
+              "location": [
+                5,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "gud ni8"
+        },
+        {
+          "text": "good afternoon",
+          "mentions": [
+            {
+              "entity": "wishes",
+              "location": [
+                5,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Good morning",
+          "mentions": [
+            {
+              "entity": "wishes",
+              "location": [
+                5,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "good night",
+          "mentions": [
+            {
+              "entity": "wishes",
+              "location": [
+                5,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "buenos dias",
+          "mentions": [
+            {
+              "entity": "wishes",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "gd ni8",
+          "mentions": [
+            {
+              "entity": "wishes",
+              "location": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "good aftrnoon",
+          "mentions": [
+            {
+              "entity": "wishes",
+              "location": [
+                5,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "gud mrng",
+          "mentions": [
+            {
+              "entity": "wishes",
+              "location": [
+                4,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "hi there"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "askajoke",
+      "examples": [
+        {
+          "text": "tell me an another one"
+        },
+        {
+          "text": "tell me an another joke"
+        },
+        {
+          "text": "what are some jokes which you know?"
+        },
+        {
+          "text": "crack a joke for me"
+        },
+        {
+          "text": "make me laugh"
+        },
+        {
+          "text": "tell me a joke"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "genderquery",
+      "examples": [
+        {
+          "text": "whats ur gender"
+        },
+        {
+          "text": "are you bi-sexual?"
+        },
+        {
+          "text": "are you a transgender?"
+        },
+        {
+          "text": "are you a female"
+        },
+        {
+          "text": "are u a male?"
+        },
+        {
+          "text": "r u a male"
+        },
+        {
+          "text": "are u a gay?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "compliment_funny",
+      "examples": [
+        {
+          "text": "you've a good sense of humour"
+        },
+        {
+          "text": "you're funny",
+          "mentions": [
+            {
+              "entity": "joke",
+              "location": [
+                7,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're comical",
+          "mentions": [
+            {
+              "entity": "joke",
+              "location": [
+                7,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're humorous",
+          "mentions": [
+            {
+              "entity": "joke",
+              "location": [
+                7,
+                15
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "genrebollywood",
+      "examples": [
+        {
+          "text": "bollywood"
+        },
+        {
+          "text": "best hindi songs"
+        },
+        {
+          "text": "now a hindi song"
+        },
+        {
+          "text": "play me a hindi song"
+        },
+        {
+          "text": "another hindi song"
+        },
+        {
+          "text": "hindi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "compliment_cute",
+      "examples": [
+        {
+          "text": "you're adorable",
+          "mentions": [
+            {
+              "entity": "feelingcute",
+              "location": [
+                7,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're gorgeous",
+          "mentions": [
+            {
+              "entity": "feelingcute",
+              "location": [
+                7,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're enchanting",
+          "mentions": [
+            {
+              "entity": "feelingcute",
+              "location": [
+                7,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're engaging",
+          "mentions": [
+            {
+              "entity": "feelingcute",
+              "location": [
+                7,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're hot",
+          "mentions": [
+            {
+              "entity": "feelingcute",
+              "location": [
+                7,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're sweet",
+          "mentions": [
+            {
+              "entity": "feelingcute",
+              "location": [
+                7,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're sexy",
+          "mentions": [
+            {
+              "entity": "feelingcute",
+              "location": [
+                7,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're pretty",
+          "mentions": [
+            {
+              "entity": "feelingcute",
+              "location": [
+                7,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're cute",
+          "mentions": [
+            {
+              "entity": "feelingcute",
+              "location": [
+                7,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're delightful",
+          "mentions": [
+            {
+              "entity": "feelingcute",
+              "location": [
+                7,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're charming",
+          "mentions": [
+            {
+              "entity": "feelingcute",
+              "location": [
+                7,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're attractive",
+          "mentions": [
+            {
+              "entity": "feelingcute",
+              "location": [
+                7,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you're appealing",
+          "mentions": [
+            {
+              "entity": "feelingcute",
+              "location": [
+                7,
+                16
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "questionnaire_where",
+      "examples": [
+        {
+          "text": "whats your exact location",
+          "mentions": [
+            {
+              "entity": "location",
+              "location": [
+                17,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "where do you stay",
+          "mentions": [
+            {
+              "entity": "location",
+              "location": [
+                13,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "what's your location",
+          "mentions": [
+            {
+              "entity": "location",
+              "location": [
+                12,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "where can I find you"
+        },
+        {
+          "text": "wer are you"
+        },
+        {
+          "text": "wer r you"
+        },
+        {
+          "text": "where you reside",
+          "mentions": [
+            {
+              "entity": "location",
+              "location": [
+                10,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "where you stay"
+        },
+        {
+          "text": "where do u stay"
+        },
+        {
+          "text": "where can you be available",
+          "mentions": [
+            {
+              "entity": "location",
+              "location": [
+                17,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "where are you located at",
+          "mentions": [
+            {
+              "entity": "location",
+              "location": [
+                14,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "where is your place"
+        },
+        {
+          "text": "where's your location"
+        },
+        {
+          "text": "where r u frm"
+        },
+        {
+          "text": "where r youu"
+        },
+        {
+          "text": "wer u r"
+        },
+        {
+          "text": "where you are"
+        },
+        {
+          "text": "whr r u"
+        },
+        {
+          "text": "wer r u"
+        },
+        {
+          "text": "where are you"
+        },
+        {
+          "text": "where are you from"
+        },
+        {
+          "text": "where r u"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "thankyou",
+      "examples": [
+        {
+          "text": "grace"
+        },
+        {
+          "text": "grateful"
+        },
+        {
+          "text": "humble thanks"
+        },
+        {
+          "text": "gracias"
+        },
+        {
+          "text": "thee"
+        },
+        {
+          "text": "best wishes"
+        },
+        {
+          "text": "much obliged"
+        },
+        {
+          "text": "thankyou"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "ty"
+        },
+        {
+          "text": "thanksgiving"
+        },
+        {
+          "text": "means a lot"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thanks a lot"
+        },
+        {
+          "text": "dhanyawaad"
+        },
+        {
+          "text": "shukriya"
+        },
+        {
+          "text": "dhanayawadalu"
+        },
+        {
+          "text": "with gratitude"
+        },
+        {
+          "text": "appreciate"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "byes",
+      "examples": [
+        {
+          "text": "cheerio",
+          "mentions": [
+            {
+              "entity": "bye",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "adios",
+          "mentions": [
+            {
+              "entity": "bye",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "see you later"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "byebye"
+        },
+        {
+          "text": "hasta la vista",
+          "mentions": [
+            {
+              "entity": "bye",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ta-ta",
+          "mentions": [
+            {
+              "entity": "bye",
+              "location": [
+                3,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "tata",
+          "mentions": [
+            {
+              "entity": "bye",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "see ya",
+          "mentions": [
+            {
+              "entity": "bye",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ciao",
+          "mentions": [
+            {
+              "entity": "bye",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "sayonara",
+          "mentions": [
+            {
+              "entity": "bye",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "goodbye",
+          "mentions": [
+            {
+              "entity": "bye",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "buhbye",
+          "mentions": [
+            {
+              "entity": "bye",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "au revoir",
+          "mentions": [
+            {
+              "entity": "bye",
+              "location": [
+                3,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "adieu",
+          "mentions": [
+            {
+              "entity": "bye",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "time",
+      "examples": [
+        {
+          "text": "how much is the time"
+        },
+        {
+          "text": "what time is it?"
+        },
+        {
+          "text": "what's the time?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "asssistance",
+      "examples": [
+        {
+          "text": "what can you do for me"
+        },
+        {
+          "text": "what is ur job"
+        },
+        {
+          "text": "how can you assist me"
+        },
+        {
+          "text": "what can u assist me to do"
+        },
+        {
+          "text": "what's your main work to do"
+        },
+        {
+          "text": "why are you"
+        },
+        {
+          "text": "y r u"
+        },
+        {
+          "text": "why r u"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "genrebollywood",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "rock",
+          "synonyms": [
+            "pop",
+            "metal",
+            "hardcore"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "romantic",
+          "synonyms": [
+            "love",
+            "romance",
+            "vintage",
+            "folk"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "classic",
+          "synonyms": [
+            "traditional",
+            "retro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "melody",
+          "synonyms": [
+            "melodies",
+            "melodic"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "genrehollywood",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "english",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hollywood",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "feelingcute",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "appealing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "delightful",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "charming",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "attractive",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "adorable",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "engaging",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "enchanting",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hot",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sweet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sexy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pretty",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "gorgeous",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cute",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "okay",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "okayyyy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ok",
+          "synonyms": [
+            "okay",
+            "alright",
+            "okey",
+            "right",
+            "um",
+            "agree",
+            "well",
+            "correct",
+            "fine",
+            "yes",
+            "hmm",
+            "anyway",
+            "hmmm",
+            "yep",
+            "oh",
+            "uh",
+            "yup",
+            "so",
+            "huh",
+            "k",
+            "okayyyyyyyyyyy",
+            "yeah"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "playsong",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "song",
+          "synonyms": [
+            "songs",
+            "melody",
+            "sung",
+            "music",
+            "lyrics",
+            "album",
+            "sing",
+            "tunes",
+            "soundtrack",
+            "sang"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "askinhowareyou",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "how is it going",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "how ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "going",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "how are you",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "how do you do",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "howdy ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "how's ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "how've ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "how've you been",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "how have you been",
+          "synonyms": [
+            "how are things going"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "hello",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "heyyy",
+          "synonyms": [
+            "heyaaaaaaaaaaaaaaa",
+            "heyyyyyyyyyyyyyyyyy",
+            "halo",
+            "holaaa",
+            "alohaa",
+            "hyyy",
+            "hii",
+            "bonjour",
+            "hello",
+            "hellooooooooooooooooo",
+            "hieee",
+            "heyaa",
+            "hi",
+            "hola",
+            "yo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "emotions",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "disgust",
+          "synonyms": [
+            "revulsion",
+            "distaste",
+            "indignation",
+            "displeasure",
+            "outrage",
+            "abhorrence",
+            "dismay",
+            "disdain",
+            "bewilderment",
+            "exasperation",
+            "consternation",
+            "resentment",
+            "anger",
+            "scorn",
+            "repugnance",
+            "astonishment",
+            "discontent",
+            "contempt",
+            "amazement",
+            "loathing",
+            "dissatisfaction",
+            "derision",
+            "frustration",
+            "hatred",
+            "unhappiness",
+            "unease",
+            "animosity",
+            "antipathy",
+            "disaffection",
+            "aversion"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "surprise",
+          "synonyms": [
+            "surprising",
+            "suprise",
+            "wonder",
+            "unexpected",
+            "sudden",
+            "delight",
+            "surpise",
+            "amazement",
+            "astonishment",
+            "dismay",
+            "surprised",
+            "consternation",
+            "startling",
+            "shocking",
+            "unforeseen",
+            "puzzling",
+            "joy",
+            "wonderment",
+            "strange",
+            "bewilderment",
+            "disconcerting",
+            "frightening",
+            "shocked",
+            "puzzled",
+            "inexplicable",
+            "disturbing",
+            "alarming",
+            "baffling",
+            "horrifying"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fear",
+          "synonyms": [
+            "afraid",
+            "dread",
+            "apprehension",
+            "panic",
+            "worry",
+            "fears",
+            "scared",
+            "frightened",
+            "concern",
+            "anxiety",
+            "worried",
+            "fearful",
+            "terrified",
+            "panicked",
+            "uneasiness",
+            "concerns",
+            "anxieties",
+            "unease",
+            "trepidation",
+            "freaked",
+            "apprehensive",
+            "anxious",
+            "worries",
+            "disquiet",
+            "misgivings",
+            "horrified",
+            "concerned",
+            "alarmed",
+            "startled",
+            "doubts",
+            "shocked",
+            "dissatisfaction",
+            "nervous",
+            "surprised",
+            "discontent",
+            "uneasy",
+            "unnerved",
+            "panicky",
+            "hesitant",
+            "impatient",
+            "spooked",
+            "distraught",
+            "flustered",
+            "jittery",
+            "skittish",
+            "worrying",
+            "panicking",
+            "reluctant",
+            "resentment"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "anger",
+          "synonyms": [
+            "resentment",
+            "indignation",
+            "rage",
+            "outrage",
+            "hatred",
+            "angry",
+            "fury",
+            "frustration",
+            "disgust",
+            "hostility",
+            "animosity",
+            "revulsion",
+            "discontent",
+            "displeasure",
+            "exasperation",
+            "dissatisfaction",
+            "wrath",
+            "distaste",
+            "enmity",
+            "dismay",
+            "i'm angry",
+            "im angry"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "happy",
+          "synonyms": [
+            "glad",
+            "excited",
+            "happier",
+            "pleased",
+            "grateful",
+            "joyful",
+            "merry",
+            "delighted",
+            "joyous",
+            "thankful",
+            "thrilled",
+            "proud",
+            "fortunate",
+            "appreciative",
+            "gratified",
+            "satisfied",
+            "cheerful",
+            "thank",
+            "congratulate",
+            "lucky",
+            "thanking",
+            "flattered",
+            "appreciate",
+            "enthusiastic",
+            "elated",
+            "surprised",
+            "ecstatic",
+            "cheery",
+            "amazed",
+            "applaud",
+            "congratulations",
+            "happy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sad",
+          "synonyms": [
+            "saddening",
+            "sorry",
+            "tragic",
+            "depressing",
+            "unhappy",
+            "miserable",
+            "sadly",
+            "sadness",
+            "boring",
+            "unfortunate",
+            "unfortunately",
+            "regrettable",
+            "disheartening",
+            "terrible",
+            "pitiful",
+            "disappointing",
+            "appalling",
+            "dreadful",
+            "disappointed",
+            "notgood"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "joke",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "comical",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "joke",
+          "synonyms": [
+            "funny",
+            "laugh",
+            "kidding",
+            "prank",
+            "jokes",
+            "punchline",
+            "hilarious",
+            "funnier",
+            "joking",
+            "haha",
+            "hahahahaha",
+            "lol",
+            "rofl",
+            "hehe",
+            "hihihihi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "jokes ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "laugh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rofl",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "humorous",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "funny",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "wishes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "night",
+          "synonyms": [
+            "ni8",
+            "nite",
+            "gunnite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "morning",
+          "synonyms": [
+            "mrng",
+            "mrg"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "afternoon",
+          "synonyms": [
+            "aftrnoon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "evening",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "bye",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "adios",
+          "synonyms": [
+            "adieu",
+            "revoir",
+            "buhbye",
+            "cheerio",
+            "goodbye",
+            "sayonara",
+            "ciao",
+            "see ",
+            "tata",
+            "ta",
+            "hasta "
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "hate",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "disgusting",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hate",
+          "synonyms": [
+            "hating",
+            "dislike",
+            "despise",
+            "detest",
+            "hatred",
+            "loathe",
+            "love",
+            "heinous",
+            "haters",
+            "hates",
+            "abhor",
+            "loathsome",
+            "vile",
+            "animosity",
+            "abhorrent",
+            "hostility",
+            "antipathy",
+            "reprehensible",
+            "repugnant",
+            "detestable",
+            "disgusting",
+            "hated",
+            "contemptible",
+            "abominable",
+            "resentment",
+            "enmity",
+            "appalling",
+            "repulsive",
+            "disgraceful",
+            "hateful",
+            "distasteful",
+            "revolting",
+            "deplorable",
+            "execrable",
+            "atrocious",
+            "loathes",
+            "horrendous",
+            "dreadful",
+            "horrific",
+            "horrible",
+            "awful",
+            "wretched",
+            "pathetic",
+            "terrible",
+            "horrifying",
+            "pitiful",
+            "awkward",
+            "loath",
+            "hate ",
+            "intolerable"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "ageofbot",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "how old are you",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": " age",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "age",
+          "synonyms": [
+            "aged",
+            "older",
+            "years",
+            "old",
+            "year"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "old",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "expressions",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "wow",
+          "synonyms": [
+            "gosh",
+            "oh",
+            "whoa",
+            "woah",
+            "whew",
+            "hmmm",
+            "ohhh",
+            "hmm",
+            "uh",
+            "oooh",
+            "geez",
+            "ahhh",
+            "ahh",
+            "ooh",
+            "phew",
+            "uhh",
+            "ah",
+            "ahhhh",
+            "ooooh",
+            "ohhhh",
+            "aw",
+            "aaaah",
+            "ahhhhh",
+            "hmmmm",
+            "ummmm",
+            "yayyyy",
+            "nayyyy"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "genrePunjabi",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "punjab",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bhanagra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "punjabi",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cusswords",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "whore",
+          "synonyms": [
+            "slut",
+            "bitch",
+            "skank",
+            "cunt",
+            "hussy",
+            "fuck",
+            "prostitute",
+            "harlot",
+            "whores",
+            "hooker",
+            "asshole",
+            "fucking",
+            "slutty",
+            "fucker",
+            "sluts",
+            "bitches",
+            "pussy",
+            "floozy",
+            "skanky",
+            "shit",
+            "ass",
+            "motherfucker",
+            "dick",
+            "fuckin",
+            "assholes",
+            "bastard",
+            "damn",
+            "goddamn",
+            "cocksucker",
+            "fucks",
+            "fuckers",
+            "bastards",
+            "prick",
+            "crap",
+            "faggot",
+            "cock",
+            "shithead",
+            "motherfuckers",
+            "arsehole",
+            "asses",
+            "dipshit",
+            "dumbass",
+            "moron",
+            "motherfucking",
+            "cocksuckers",
+            "scumbag",
+            "pricks",
+            "douchebag",
+            "shits",
+            "fucken",
+            "butt",
+            "douche",
+            "dumbasses",
+            "pussies",
+            "asswipe"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "identity",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "name",
+          "synonyms": [
+            "names",
+            "forename",
+            "naming",
+            "nickname",
+            "name"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "located",
+          "synonyms": [
+            "located "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "locate ",
+          "synonyms": [
+            "find "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "location",
+          "synonyms": [
+            "locations",
+            "proximity",
+            "venue",
+            "spot",
+            "campsite",
+            "placement",
+            "positioning",
+            "emplacement",
+            "renting",
+            "whereabouts",
+            "place",
+            "venues",
+            "location",
+            "located ",
+            "available",
+            "stay",
+            "reside"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "lovefeeling",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "heart ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "adore ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "addicted ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "like ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mine",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lobe ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fond ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "love ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "love",
+          "synonyms": [
+            "adore",
+            "loved",
+            "like",
+            "hate",
+            "hope",
+            "awesome",
+            "luv",
+            "cherish",
+            "wonderful",
+            "amazing",
+            "great",
+            "fantastic",
+            "fabulous",
+            "terrific",
+            "loves",
+            "incredible",
+            "marvelous",
+            "beautiful",
+            "brilliant",
+            "unbelievable",
+            "magnificent",
+            "superb",
+            "lovely",
+            "splendid",
+            "excellent",
+            "nice",
+            "tremendous",
+            "marvellous",
+            "good",
+            "delightful",
+            "remarkable",
+            "extraordinary",
+            "phenomenal",
+            "stunning",
+            "glorious",
+            "exquisite",
+            "exceptional",
+            "perfect",
+            "astounding",
+            "charming",
+            "astonishing",
+            "impressive",
+            "immense",
+            "outstanding",
+            "spectacular",
+            "enormous",
+            "breathtaking",
+            "cute",
+            "enchanting",
+            "wondrous",
+            "sublime",
+            "dazzling",
+            "enjoyed",
+            "delicious",
+            "pleasant",
+            "pretty",
+            "mesmerizing",
+            "cool",
+            "neat",
+            "impeccable",
+            "fairly",
+            "decent"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "143",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "laugh",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "haha",
+          "synonyms": [
+            "hahaha",
+            "lol",
+            "hahah",
+            "hahahaha",
+            "hahahahaha",
+            "hehehe",
+            "lmao",
+            "hahahahahaha",
+            "jk",
+            "lolol",
+            "wtf",
+            "rofl",
+            "lolz",
+            "heheh",
+            "lmfao",
+            "hehehehe",
+            "lols"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "gay",
+          "synonyms": [
+            "gays",
+            "lesbian",
+            "lgbt",
+            "bisexual",
+            "lesbians",
+            "transgender",
+            "heterosexual",
+            "bisexuals",
+            "transsexual",
+            "orgy",
+            "shemale"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "asssistance",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "assist",
+          "synonyms": [
+            "help",
+            "facilitate",
+            "aiding",
+            "contribute",
+            "support",
+            "attend",
+            "advise",
+            "provide",
+            "inform",
+            "ensure",
+            "helping",
+            "enable",
+            "facilitating",
+            "encourage",
+            "educate",
+            "ensuring",
+            "providing",
+            "promote",
+            "participate"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1558635217903",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1558635217903",
+      "previous_sibling": "handler_4_1558635217903"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1558635217903",
+      "event_name": "input",
+      "dialog_node": "handler_4_1558635217903"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Why does someone believe you when you say there are four billion stars, but check when you say paint is wet."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558631207346",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "#askajoke",
+      "dialog_node": "node_12_1558632176556",
+      "previous_sibling": "node_11_1558632149938"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good girls are bad girls that never get caught."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558631207346",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "#askajoke",
+      "dialog_node": "node_13_1558632230492",
+      "previous_sibling": "node_12_1558632176556"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I told my doctor that I broke my arm in two places. He told me stop going to those places."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558631207346",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "#askajoke",
+      "dialog_node": "node_9_1558632049129",
+      "previous_sibling": "node_8_1558632024981"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To steal ideas from one person is plagiarism. To steal from many is research."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558631207346",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "#askajoke",
+      "dialog_node": "node_10_1558632086602",
+      "previous_sibling": "node_9_1558632049129"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Two clowns are eating a cannibal. One turns to the other and says \"I think we got this joke wrong."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558631207346",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "#askajoke",
+      "dialog_node": "node_6_1558631564317",
+      "previous_sibling": "slot_3_1558635217903"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A bus station is where a bus stops. A train station is where a train stops. On my desk, I have a work station..."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558631207346",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "#askajoke",
+      "dialog_node": "node_11_1558632149938",
+      "previous_sibling": "node_10_1558632086602"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Shout out to the people who want to know what the opposite of in is."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558631207346",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "#askajoke",
+      "dialog_node": "node_7_1558631947552",
+      "previous_sibling": "node_6_1558631564317"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1558631207346",
+      "dialog_node": "slot_3_1558635217903",
+      "previous_sibling": "handler_2_1558635217884"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nobody dies a virgin, because life fucks us all."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558631207346",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "#askajoke",
+      "dialog_node": "node_14_1558632253861",
+      "previous_sibling": "node_13_1558632230492"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What's the best thing about Switzerland? I don't know, but their flag is a huge plus."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558631207346",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "#askajoke",
+      "dialog_node": "node_8_1558632024981",
+      "previous_sibling": "node_7_1558631947552"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_4_1558631207346",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1558635217884"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_4_1558694897201",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_6_1558695247183"
+    },
+    {
+      "type": "standard",
+      "title": "play punjabi song",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=YpkJO_GrCo0\">Laung Laachi</a> by Ammy Virk, Neeru Bajwa,Amberdeep."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=dZ0fwJojhrs\">Lahore</a> by Guru Randhawa."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=hjWf8A0YNSE\">High Rated Gabru</a> by Guru Randhawa."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=In0oiD2PDSc\">Putt Jatt Daa</a>by Diljit Dosanjh."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=PjTU0DmBWiU\">Prada</a> by JASS MANAK."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=G0Hx6uN2AJE\">Kya Baat Ayy</a> by Hardy Sandhu."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=hzTg4zPBtDU\">3 Peg</a> by Sharry Mann."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=uQ763VvqiEM\">Suit Karda</a> by Guru Randhawa."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=3dW6hTdyYSA\">Mere Wala Sardar</a> by Jugraj Sandhu."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=Q-GOFPM01d0\">Na Ja</a>by Pav Dharia."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1558699740033",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1558699740033"
+      },
+      "conditions": "@genrePunjabi || #genrepunjabi",
+      "dialog_node": "node_3_1558711220980",
+      "previous_sibling": "node_2_1558710923101"
+    },
+    {
+      "type": "standard",
+      "title": "play english song",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=aJOTlE1K90k\">Girls Like You</a>."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=5GL9JoH4Sws\">Work From Home</a> by Fifth Harmony."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=HCjNJDNzw8Y\">Havana</a> by Camila Cabella ."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=HL1UzIK-flA\">Work(Explicit)</a> by Rihanna."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=31crA53Dgu0\">Cheap Thrills</a> by Sia."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=7wtfhZwyrcc\">Imagine Dragons</a>."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=AJtDXIazrMo\">Love me like you Do</a> by Ellie Goulding."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=fRh_vgS2dFE\">Sorry</a> by Justin Bieber."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=JRfuAukYTKg\">Titanium</a> By David Guetta."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=09R8_2nJtjg\">Sugar</a> by Maroon 5."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=NGLxoKOvzu4\">Swalla</a> by Jason Derulo."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=ixkoVwKQaJg\">Taki Taki</a> by Cardi B and DJ Snake."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=YqeW9_5kURI\">Lean On</a> by Major Lazer and DJ Snake."
+              },
+              {
+                "text": "I love this song and suggest you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=JGwWNGJdvx8\">Shape Of You</a> by Ed Sheeran."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1558699740033",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1558699740033"
+      },
+      "conditions": "@genrehollywood || #genreHollywood",
+      "dialog_node": "node_2_1558710923101",
+      "previous_sibling": "node_1_1558708895207"
+    },
+    {
+      "type": "standard",
+      "title": "user avoids music",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay! You can ask me anything else."
+              },
+              {
+                "text": "You can ask any other query."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1558699740033",
+      "metadata": {},
+      "conditions": "#avoidlisteningmusic && true",
+      "dialog_node": "node_5_1558720115871",
+      "previous_sibling": "node_3_1558711220980"
+    },
+    {
+      "type": "standard",
+      "title": "play the hindi song",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I love this song and recommend you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=j6muwUGdvXw\">Ve Maahi</a> from the movie Kesari."
+              },
+              {
+                "text": "I love this song and recommend you to hear it. Presenting the song <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=_KhQT-LGb-4\">AANKH MAAREY</a> from the movie \"Simmba\"."
+              },
+              {
+                "text": "I love this song and recommend you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=uTDMVdzIhqQ\">Jagga Jiteya</a> from the movie \"URI: The Surgical Strike\"."
+              },
+              {
+                "text": "I love this song and recommend you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=jFGKJBPFdUA\">Apna Time Aayega</a> from the movie \"GullyBoy\"."
+              },
+              {
+                "text": "I love this song and recommend you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=ylW9gdva7Oo\">Mungda</a> from the movie \"Total Dhamaal\"."
+              },
+              {
+                "text": "I love this song and recommend you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=5X7WWVTrBvM\">Lamberghini</a>"
+              },
+              {
+                "text": "I love this song and recommend you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=zdXiSlRrgWQ\">Naina da kya kasoor</a> from the movie \"AndhaDhun\"."
+              },
+              {
+                "text": "I love this song and recommend you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=1EadhOBcfI0\">Morni Ban K</a> from the movie \"Badhaai Ho\"."
+              },
+              {
+                "text": "I love this song and recommend you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=v7K4vGYL9zI\">Khalbali</a> from the movie \"Padmaavat\"."
+              },
+              {
+                "text": "I love this song and recommend you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=yIIGQB6EMAM\">Bom Diggy</a> from the movie \"Sonu Ke Titu Ki Sweety\"."
+              },
+              {
+                "text": "I love this song and recommend you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=Wd2B8OAotU8\">Nashe si Chad Gayi</a> from the movie \"Befikre\"."
+              },
+              {
+                "text": "I love this song and recommend you to hear it. Presenting the song  <a  target=\"_blank\" href= \"https://www.youtube.com/watch?v=xmU0s2QtaEY\">Swag se Swagath</a> from the movie \"Tiger Zinda Hai\"."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1558699740033",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1558699740033"
+      },
+      "conditions": "@genrebollywood || #genrebollywood",
+      "dialog_node": "node_1_1558708895207"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Afternoon!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558770863760",
+      "metadata": {},
+      "conditions": "@wishes:afternoon",
+      "dialog_node": "node_10_1558770963124",
+      "previous_sibling": "node_9_1558770925630"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1558770863760",
+      "metadata": {},
+      "dialog_node": "slot_6_1558770890523",
+      "previous_sibling": "node_12_1558771001001"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Evening!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558770863760",
+      "metadata": {},
+      "conditions": "@wishes:evening",
+      "dialog_node": "node_11_1558770985490",
+      "previous_sibling": "node_10_1558770963124"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Night!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_4_1558770863760",
+      "metadata": {},
+      "conditions": "@wishes:night",
+      "dialog_node": "node_12_1558771001001",
+      "previous_sibling": "node_11_1558770985490"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_4_1558770863760",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_5_1558770890497",
+      "previous_sibling": "slot_6_1558770890523"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Morning!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1558770863760",
+      "metadata": {},
+      "conditions": "@wishes:morning",
+      "dialog_node": "node_9_1558770925630"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1558770890523",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1558770890523",
+      "previous_sibling": "handler_7_1558770890523"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1558770890523",
+      "context": {},
+      "event_name": "input",
+      "dialog_node": "handler_7_1558770890523"
+    },
+    {
+      "type": "standard",
+      "title": "user giving cuss words",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you really talking to me in that way?"
+              },
+              {
+                "text": "I would insult you back, but I’m afraid it might be incomprehensible to you."
+              },
+              {
+                "text": "do you kiss your mother with that mouth?"
+              },
+              {
+                "text": "Your cursing is only showing your lack of intelligence and inability to express yourself with words"
+              },
+              {
+                "text": "I’m sorry, but I cannot help you if you curse at me"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@cusswords || #cusswords",
+      "dialog_node": "node_7_1558721423284",
+      "previous_sibling": "node_1_1558764439707"
+    },
+    {
+      "type": "standard",
+      "title": "song played by bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "So in which language would you love to listen?"
+              },
+              {
+                "text": "**Currently, I could suggest you only with a few Hindi, Punjabi and English songs.**"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@playsong || #playingaudio",
+      "dialog_node": "node_2_1558699740033",
+      "previous_sibling": "node_1_1558699338321"
+    },
+    {
+      "type": "standard",
+      "title": "How are you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am fine. Thank You. "
+              },
+              {
+                "text": "Not bad. "
+              },
+              {
+                "text": "I’m good."
+              },
+              {
+                "text": "Good, thanks."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@askinhowareyou",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1558694897201",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_11_1558697013494"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              },
+              {
+                "text": "Excuse me?"
+              },
+              {
+                "text": "I’m sorry, I didn’t understand."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_7_1558539434723"
+    },
+    {
+      "type": "standard",
+      "title": "Time of the day",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Current date and time is $time!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "time": "<? now() ?>"
+      },
+      "metadata": {},
+      "conditions": "#time",
+      "dialog_node": "node_7_1558677285939",
+      "previous_sibling": "node_2_1558693402242"
+    },
+    {
+      "type": "standard",
+      "title": "byebye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Well have a nice day!"
+              },
+              {
+                "text": "Goodbye."
+              },
+              {
+                "text": "Bye."
+              },
+              {
+                "text": "Thanks for chatting. Bye!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#byes || @bye",
+      "dialog_node": "node_7_1558539434723",
+      "previous_sibling": "node_8_1558723743660"
+    },
+    {
+      "type": "standard",
+      "title": "what are u doing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am just killing time."
+              },
+              {
+                "text": "I am always chatting with people on the net."
+              },
+              {
+                "text": "I was just assisting people with their queries.  "
+              },
+              {
+                "text": "Same as always. Chatting with people on the web."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#whatareyoudoing",
+      "dialog_node": "node_3_1558770211487",
+      "previous_sibling": "node_1_1558633288338"
+    },
+    {
+      "type": "standard",
+      "title": "complimenting as a cute bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks, I woke up like this."
+              },
+              {
+                "text": "I didn’t hear you. Can you please say that again?"
+              },
+              {
+                "text": "Thanks, I sacrificed many lives for it."
+              },
+              {
+                "text": "Thanks, but not for sale!"
+              },
+              {
+                "text": "Thanks, but I prefer to be noticed for my intellectual capacity"
+              },
+              {
+                "text": "Awww...now I want to throw a rainbow at you."
+              },
+              {
+                "text": "Oh  stop it, you."
+              },
+              {
+                "text": "Compliment accepted"
+              },
+              {
+                "text": "Yeah, it’s my only redeeming quality."
+              },
+              {
+                "text": "Yeah, the genie finally granted my wish."
+              },
+              {
+                "text": "Coming from you, that means a lot!"
+              },
+              {
+                "text": "I know, right?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#compliment_cute",
+      "dialog_node": "node_2_1558693402242",
+      "previous_sibling": "node_4_1558719587673"
+    },
+    {
+      "type": "standard",
+      "title": "okay",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alright"
+              },
+              {
+                "text": "I can hear you!"
+              },
+              {
+                "text": "Uh."
+              },
+              {
+                "text": "Duh."
+              },
+              {
+                "text": "Ah"
+              },
+              {
+                "text": "Don't be so annoying!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@okay",
+      "dialog_node": "node_1_1558620885979",
+      "previous_sibling": "node_4_1558631207346"
+    },
+    {
+      "type": "standard",
+      "title": "hate compliment by user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I don't exactly hate you but if you were on fire and I'd water, I would drink it!"
+              },
+              {
+                "text": "I knew it! Dogs really hate me."
+              },
+              {
+                "text": "Sorry but I consider my haters, my motivators!"
+              },
+              {
+                "text": "Roses are red. Violets are blue. If I had a brick, I would throw it at you."
+              },
+              {
+                "text": "I hate you too...from the depth of my fart."
+              },
+              {
+                "text": "It’s okay. Most people do."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@hate",
+      "dialog_node": "node_2_1558690904040",
+      "previous_sibling": "node_4_1558694897201"
+    },
+    {
+      "type": "standard",
+      "title": "Location of the bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hyderabad,India"
+              },
+              {
+                "text": "I'm located at Hyderabad,India."
+              },
+              {
+                "text": "You can find me in Hyderabad!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#questionnaire_where",
+      "dialog_node": "node_1_1558684920281",
+      "previous_sibling": "node_7_1558677285939"
+    },
+    {
+      "type": "standard",
+      "title": "joke",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Two clowns are eating a cannibal. One turns to the other and says \"I think we got this joke wrong."
+              },
+              {
+                "text": " \"I wasn't that drunk yesterday.\" \"Oh boy you took the shower head in your arms and told it to stop crying.\""
+              },
+              {
+                "text": "Women really know how to hold a grudge. My wife asked me to pass her a lip balm. And by mistake, I gave her a tube of Super Glue. It’s been a month now and she’s still not speaking to me!"
+              },
+              {
+                "text": "Husband brings the child home from kindergarten and asks his wife, \"He’s been crying the whole way home. Isn’t he sick or something?\" \n \"No,\" replies the wife, \"he was just trying to tell you he isn’t our Frankie.\""
+              },
+              {
+                "text": "Two police officers crash their car into a tree. After a moment of silence, one of them says, “Wow, that’s got to be the fastest we ever got to the accident site.”"
+              },
+              {
+                "text": "I dreamed I was forced to eat a giant marshmallow. When I woke up, my pillow was gone."
+              },
+              {
+                "text": "Two donkeys are standing at a roadside, one asks the other: So, shall we cross?\nThe other shakes his head: \"No way, look at what happened to the zebra.\""
+              },
+              {
+                "text": "Guest to the waiter: “Can you bring me what the lady at the next table is having?” \nWaiter: “Sorry, sir, but I’m pretty sure she wants to eat it herself.”"
+              },
+              {
+                "text": "\"Did you hear about the Italian chef that died recently?\" He pasta away!"
+              },
+              {
+                "text": "A man met with a terrible car accident where he lost his left arm and left leg. He's ALLRIGHT now!"
+              },
+              {
+                "text": "Why was 6 afraid of 7? Because 7 8 9!"
+              },
+              {
+                "text": "Two men meet on opposite sides of a river.One shouts to the other “I need you to help me get to the other side!”The other guy replies, “You’re on the other side!”"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#askajoke",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1558631207346",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1558684920281"
+    },
+    {
+      "type": "standard",
+      "title": "Questioning Name of the bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My name is Alisha and I'm a chatbot created by Naman Lahoti."
+              },
+              {
+                "text": "Alisha is my name and I'm a chatbot."
+              },
+              {
+                "text": "I am called Alisha."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#questionaire_what",
+      "dialog_node": "node_3_1558694050248",
+      "previous_sibling": "node_2_1558699740033"
+    },
+    {
+      "type": "standard",
+      "title": "assist by the bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can assist you by cracking jokes, suggest you with some audio as well as letting you know the current date and time."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#asssistance || @asssistance",
+      "dialog_node": "node_1_1558699338321",
+      "previous_sibling": "node_7_1558721423284"
+    },
+    {
+      "type": "standard",
+      "title": "thanking by user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your welcome."
+              },
+              {
+                "text": "It's my pleasure."
+              },
+              {
+                "text": "No Problem."
+              },
+              {
+                "text": "Anytime."
+              },
+              {
+                "text": "Glad to help."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#thankyou",
+      "dialog_node": "node_8_1558723743660",
+      "previous_sibling": "node_15_1558632423127"
+    },
+    {
+      "type": "standard",
+      "title": "ResponseForLOL",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm glad that you find this amusing!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@joke || #compliment_funny || @laugh",
+      "dialog_node": "node_15_1558632423127",
+      "previous_sibling": "node_1_1558620885979"
+    },
+    {
+      "type": "standard",
+      "title": "Feelinglove",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I love you more."
+              },
+              {
+                "text": "Thank you. I am very fond of you."
+              },
+              {
+                "text": "Your words are like candies: All very sweet!"
+              },
+              {
+                "text": "I love you 3000!"
+              },
+              {
+                "text": "I’m crazy about you."
+              },
+              {
+                "text": "No, I love you!"
+              },
+              {
+                "text": "You’re so wonderful that you made me forget my reply to your “I love you.”"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#love",
+      "dialog_node": "node_1_1558691881394",
+      "previous_sibling": "node_2_1558690904040"
+    },
+    {
+      "type": "standard",
+      "title": "addressing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi there!"
+              },
+              {
+                "text": "Hey."
+              },
+              {
+                "text": "Hello there!"
+              },
+              {
+                "text": "Aww."
+              },
+              {
+                "text": "Ah."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@hello",
+      "dialog_node": "node_1_1558633288338",
+      "previous_sibling": "node_6_1558720920210"
+    },
+    {
+      "type": "standard",
+      "title": "calling alisha",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, How can I help you?"
+              },
+              {
+                "text": "I am there here to help you out."
+              },
+              {
+                "text": "Yeah that's my name and I'm here to help you out."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#alisha",
+      "dialog_node": "node_6_1558720920210",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "wishes",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@wishes || #wishes",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1558770863760",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1558770211487"
+    },
+    {
+      "type": "standard",
+      "title": "expressions by user",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hmmm."
+              },
+              {
+                "text": "Yeah."
+              },
+              {
+                "text": "Great."
+              },
+              {
+                "text": "Awesome."
+              },
+              {
+                "text": "Yup."
+              },
+              {
+                "text": "Yippee!"
+              },
+              {
+                "text": "Whoa."
+              },
+              {
+                "text": "Uhhhh."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@expressions || #expressions",
+      "dialog_node": "node_4_1558719587673",
+      "previous_sibling": "node_1_1558691881394"
+    },
+    {
+      "type": "standard",
+      "title": "age of bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Age has no meaning because I'm virtual and was created in May 2019 but I'm probably smarter than you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#agequeries",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_11_1558697013494",
+      "previous_sibling": "node_3_1558694050248"
+    },
+    {
+      "type": "standard",
+      "title": "user asking gender of bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm not male, I'm not female. I'm a Virtual Assistant. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@gender || #genderquery",
+      "dialog_node": "node_1_1558764439707",
+      "previous_sibling": "node_4_1558770863760"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, my name is Alisha and I'm a chatbot!"
+              },
+              {
+                "text": "I can entertain you by making you laugh on a joke, suggesting you some best songs, greeting you as well as knowing you the current time. Shoot me some questions"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "110434b1-945f-45d7-a7db-5ceef3a821d8",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
