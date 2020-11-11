@@ -5,4 +5,4 @@ It was created by using IBM Watson assistant with IBM cloud platform.
 
 Following is the link of the chatbot ALISHA.
 
-https://assistant-chat-eu-gb.watsonplatform.net/web/public/710afcfc-c4b7-40c8-b3de-fa29550a84f4
+https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=710afcfc-c4b7-40c8-b3de-fa29550a84f4&serviceInstanceID=60888c57-c735-46d0-9341-b9229c6b8476
